@@ -1,0 +1,440 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family:s'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+small,
+ul,
+ol,
+button{
+    margin: 0;
+    padding: 0;
+}
+.section_info h2{
+    font-size: 46px;
+    color: #252d2f;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section_info p{
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 41px;
+}
+/*common css end*/
+/*nav section start*/
+#nav{
+    background: #252d2f;
+}
+#nav ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    padding: 21px 20px;
+    text-transform: uppercase;
+}
+#nav ul li:hover a{
+  color: yellow;
+  background: #2dcb71;
+}
+/*nav section end*/
+/*bannaer section start*/
+#banner{
+    background: url(../img/focal-banner.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+}
+#banner .banner_content h1{
+    font-size: 68px;
+    color: #fff;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+    margin:50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#banner .banner_content a{
+    color:#fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+/*banner_low section start*/
+#banner_low{
+    padding: 50px;
+}
+#banner_low h2{
+    font-size: 30px;
+    color:#566366;
+    margin:10px;
+    padding:20px;
+    font-weight:400;
+}
+#banner_low p{
+    color: #919191;
+    font-size: 18px;
+    margin:10px 20px;
+    font-weight: 300;
+}
+/*banner_low section end*/
+/*about section*/
+#about{
+    background: #f1f1f1;
+}
+#about{
+    display: flex;
+}
+
+#about .about_info{
+    margin:50px;
+}
+#about .about_info h2 {
+    font-size: 30px;
+    color: #566366;
+    padding-bottom:20px ;
+}
+#about .about_info p{
+    font-size: 18px;
+    color: #919191;
+}
+ #about .about_low{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*about section end*/
+/*skill section start*/
+#skills{
+    padding: 20px;
+}
+#skills .left{
+    width:50%;
+    padding: 80px;
+  }
+  #skills .left h2{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #566366;
+  }
+  #skills .left p{
+    font-size:16px ;
+    color: #919191;
+    margin: 25px 0;
+    margin-bottom: 50px;
+  }
+  #skills .left a{
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 2px solid #2dcb71;
+    padding: 19px 37px;
+    color:#2ecc71;
+ 
+  }
+  #skills .right{
+    padding: 60px;
+  }
+  #skills .right .head{
+    margin: 20px;
+  }
+#skills .right .full{
+    width:100%;
+    background: #f1f1f1;
+    margin:20px;
+  }
+  #skills .right .h2{
+    margin-top: 39px;
+    margin-bottom: 19px;
+  }
+  #skills .right .photoshop{
+    width:90% ;
+    background: #2dcb71;
+    text-align: right;
+
+  }
+  #skills .right .illustrator{
+    width:80%;
+    background: #2dcb71;
+    text-align:right ;
+  }
+  #skills .right .html{
+    width:90%;
+    background:#2dcb71;
+    text-align:right ;
+  }
+  #skills .right .php{
+    width:90%;
+    background:#2dcb71 ;
+    text-align:right ;
+  }
+  /*skill section end*/
+
+  /*resume section start*/
+
+  #resume {
+    background: #f1f1f1;
+    padding: 80px;
+  }
+  #resume .resume_info h2{
+      color: #566366;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      padding:30px ;
+  }
+  #resume .resume_info p{
+    color: #919191;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif; 
+    padding: 40px;
+  }
+  #resume .resume_info a{
+   font-size: 18px;
+    font-weight: 200;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 2px solid #2dcb71;
+    padding: 10px 20px;
+    color:#2ecc71;
+
+  }
+  /*resumes section end
+
+  /*education section start*/
+  #education{
+    padding: 50px;
+    border-bottom: 2px solid #cbcbcb;
+  }
+  #education .part_1 h2{
+    font-size: 30px;
+    color: #566366;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif; 
+    font-weight: 300;
+   }
+   #education .part_1 p{
+    font-size: 18px;
+    color: #919191;
+    padding:20px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+  }
+  #education .part_2{
+    padding: 30px;
+  
+  }
+  #education .part_2{
+    padding: 50px;
+  }
+  #education .part_2 h2{  
+    font-size: 22px;
+    color: #566366;
+   }
+   #education .part_2 h2{
+    font-size: 22px;
+    color: #566366;
+   }
+   #education .part_2 address{
+    color: #919191;
+    font-size: 18px;
+    padding-left: 15px;
+   }
+   #education .part_2 a{
+    border: 2px solid #2ecc71;
+    background-color: #2ecc71;
+    color: #fff;
+  
+   }
+   #education .part_2 p{
+    font-size: 18px;
+    color: #919191;
+    padding-top: 50px;
+    border-top: 2px solid #cbcbcb;
+    margin: 20px;
+   }
+   #education .part_3 h2{
+    padding-top: 50px;
+   }
+  /*education section end*/
+  /*work experience section start*/
+  
+
+  /* #work{
+    padding-top: 20px;
+  } */
+  #work .part_1{
+    padding-top:60px;
+  }
+#work .part_1 h2{
+      font-size: 30px;
+      color: #566366;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-family:'Roboto', sans-serif; 
+      font-weight: 300;
+     }
+   
+     #work .part_1 p{
+      font-size: 18px;
+      color: #919191;
+      padding:20px 20px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+    }
+    #work  .part_2{
+      padding-top: 30px;
+    
+    }
+    #work  .part_2{
+      padding-top: 50px;
+    }
+    #work  .part_2 h2{  
+      font-size: 22px;
+      color: #566366;
+     }
+     #work  .part_2 h2{
+      font-size: 22px;
+      color: #566366;
+     }
+     #work  .part_2 address{
+      color: #919191;
+      font-size: 18px;
+      
+     }
+    #work .part_2 a{
+      border: 2px solid #2ecc71;
+      background-color: #2ecc71;
+      color: #fff;
+    
+     }
+     #work .part_2 p{
+      font-size: 18px;
+      color: #919191;
+      padding-top: 50px;
+      border-top: 2px solid #cbcbcb;
+      margin: 20px;
+     }
+     #work  .part_3 h2{
+      padding-top: 50px;
+     }
+  /*work experience section end*/
+
+  /*stone section start*/
+  #stone{
+    background: #f1f1f1;
+    padding: 50px;
+  }
+  #stone p{
+    color: #919191;
+    font-size: 24px;
+  }
+  #stone h2{
+    color:#566366;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 700;
+  }
+  #stone i{
+    font-size: 10px;
+    color: #2ecc71;
+    cursor: pointer;
+  }
+   /*stone section end*/
+
+   /* portfolio section start */
+
+
+   #portfolio{
+    padding-top: 25px;
+}
+#portfolio h2{
+  color:#7e8287;
+  padding: 20px;
+}
+#portfolio p{
+  color: #7e8287;
+  padding: 30px;
+}
+#portfolio .mywork_item img{
+    width: 90%;
+}
+#portfolio .mywork_item{
+    position: relative;
+}
+#portfolio .mywork_item .overlay{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 17px;
+    right: 17px;
+    background: rgba(2, 145, 139, 0.85);
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+}
+#portfolio .mywork_item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.mywork_item img{
+  padding-bottom: 20px;
+}
+   /* portfolio section end */
+
+   /*contact sectrion start*/
+
+   #contact{
+    background: #252d2f;
+    padding: 30px;
+   }
+   #contact .contact_info h2{
+    color:white;
+    font-size: 20px;
+   }
+   #contact .contact_info p{
+    color: #919191;
+    padding: 20px;
+   }
+   #contact .contact_info address{
+    color: #919191;
+   }#contact .contact_info .a{
+    color: #f1f1f1;
+   }
+   #contact .contact_info .submit{
+    border: 2px black;
+   }
+    /*contact sectrion end*/
+
+    /*fotter section start*/
+
+
+    #footer{
+      padding: 40px;
+      background: #181f21;
+    }
+    #footer p{
+      color:#4b5355 ;
+    }
+    #footer i{
+      background: #4b5355;
+      height: 40px;
+      line-height:40px;
+      width:40px;
+      border-radius: 40px;
+      color: black;
+    }
+     /*fotter section end*/

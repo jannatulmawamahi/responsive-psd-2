@@ -1,0 +1,52 @@
+@media (min-width:992px) and (max-width:1299.98px){
+    #banner .banner_content a {
+        color: #fff;
+        font-size: 20px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        text-transform: capitalize;
+    }
+    body {
+        margin: -205px;
+    }
+    h1, h2, h3, h4, h5, h6, p, small, ul, ol, button {
+        margin: -18px;
+        padding: 19px;
+    }
+    .mywork_item img {
+        padding-bottom: 14px;
+    }
+    #banner .banner_content h1 {
+        font-size: 40px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    #banner .banner_content h1 {
+        font-size: 41px;
+        color: #fff;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        margin: 42px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .row>* {
+        width: 33%;
+        max-width: 33%
+    }
+
+    #banner_low p {
+        font-size: 12px;
+        margin: 5px 12px;
+    }
+
+
+}
+
+
+@media (min-width:576px) and (max-width:767.98px){
+
+}
+@media (max-width:575.98px){
+
+}
